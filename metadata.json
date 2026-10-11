@@ -1,0 +1,6 @@
+{
+  "name": "Student Portfolio",
+  "description": "Clean, modern, and user-friendly personal student portfolio website showcasing academic details, about me, interests, career aspirations, and CV.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
