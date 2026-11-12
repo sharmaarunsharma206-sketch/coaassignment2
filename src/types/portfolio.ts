@@ -31,6 +31,21 @@ export interface ProjectItem {
   demoAvailable?: boolean;
 }
 
+export interface COADocument {
+  id: 'assignment' | 'case-study';
+  title: string;
+  category: string;
+  documentType: 'Assignment' | 'Case Study';
+  studentName: string;
+  uid: string;
+  className: string;
+  subject: string;
+  description: string;
+  pageCount: number;
+  pdfUrl: string;
+  downloadFilename: string;
+}
+
 export interface StudentProfile {
   name: string;
   professionalTitle: string;

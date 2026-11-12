@@ -21,6 +21,7 @@ export const Navbar: React.FC<NavbarProps> = ({
     { label: 'Education', href: '#education', id: 'education' },
     { label: 'Skills', href: '#skills', id: 'skills' },
     { label: 'Certifications', href: '#certifications', id: 'certifications' },
+    { label: 'COA', href: '#coa', id: 'coa' },
     { label: 'Projects', href: '#projects', id: 'projects' },
     { label: 'Resume', href: '#resume', id: 'resume' },
     { label: 'Contact', href: '#contact', id: 'contact' },

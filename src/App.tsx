@@ -10,6 +10,7 @@ import { AboutSection } from './components/AboutSection';
 import { EducationSection } from './components/EducationSection';
 import { TechnicalSkillsSection } from './components/TechnicalSkillsSection';
 import { CertificationsSection } from './components/CertificationsSection';
+import { COASection } from './components/COASection';
 import { ProjectsSection } from './components/ProjectsSection';
 import { ResumeSection } from './components/ResumeSection';
 import { ContactSection } from './components/ContactSection';
@@ -59,6 +60,7 @@ export default function App() {
       'education',
       'skills',
       'certifications',
+      'coa',
       'projects',
       'resume',
       'contact',
@@ -112,16 +114,19 @@ export default function App() {
         {/* 6. Certifications Section */}
         <CertificationsSection profile={profile} />
 
-        {/* 7. Projects Section */}
+        {/* 7. Computer Organisation and Architecture (COA) Section */}
+        <COASection profile={profile} />
+
+        {/* 8. Projects Section */}
         <ProjectsSection
           profile={profile}
           onOpenEditModal={() => setIsEditModalOpen(true)}
         />
 
-        {/* 8. Resume / CV Section */}
+        {/* 9. Resume / CV Section */}
         <ResumeSection profile={profile} />
 
-        {/* 9. Contact Section */}
+        {/* 10. Contact Section */}
         <ContactSection profile={profile} />
       </main>
 

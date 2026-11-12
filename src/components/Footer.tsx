@@ -30,6 +30,7 @@ export const Footer: React.FC<FooterProps> = ({ profile }) => {
             <a href="#education" className="hover:text-white transition-colors">Education</a>
             <a href="#skills" className="hover:text-white transition-colors">Skills</a>
             <a href="#certifications" className="hover:text-white transition-colors">Certifications</a>
+            <a href="#coa" className="hover:text-white transition-colors">COA</a>
             <a href="#projects" className="hover:text-white transition-colors">Projects</a>
             <a href="#resume" className="hover:text-white transition-colors">Resume</a>
             <a href="#contact" className="hover:text-white transition-colors">Contact</a>

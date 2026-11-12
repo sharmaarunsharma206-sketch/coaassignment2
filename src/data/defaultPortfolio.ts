@@ -142,3 +142,39 @@ export const ARUN_SHARMA_PROFILE: StudentProfile = {
     'Time Management',
   ],
 };
+
+import { COADocument } from '../types/portfolio';
+
+export const COA_DOCUMENTS: COADocument[] = [
+  {
+    id: 'assignment',
+    title: 'RISC vs CISC – Choosing a Processor',
+    category: 'Computer Organisation and Architecture',
+    documentType: 'Assignment',
+    studentName: 'Arun Sharma',
+    uid: '25BAI10030',
+    className: '25BAI601',
+    subject: 'Computer Organisation and Architecture',
+    description:
+      'Compares RISC and CISC processor architectures, their instruction sets, performance, and applications. Includes a comprehensive 9-parameter comparison table, instruction sequence examples (A = B + C and block byte copy), and a technical recommendation for low-power battery-operated embedded devices.',
+    pageCount: 2,
+    pdfUrl: '/assets/Arun_Sharma_RISC_vs_CISC_Assignment.pdf',
+    downloadFilename: 'Arun_Sharma_RISC_vs_CISC_Assignment.pdf',
+  },
+  {
+    id: 'case-study',
+    title: 'RISC vs CISC – Choosing a Processor',
+    category: 'Computer Organisation and Architecture',
+    documentType: 'Case Study',
+    studentName: 'Arun Sharma',
+    uid: '25BAI10030',
+    className: '25BAI601',
+    subject: 'Computer Organisation and Architecture',
+    description:
+      'Explores the differences between RISC and CISC architectures, instruction decoding, addressing modes, and processor performance. Analyzes fixed vs variable instruction lengths, pipelining implications, microcode vs hardwired control, and when CISC can outperform RISC.',
+    pageCount: 3,
+    pdfUrl: '/assets/Arun_Sharma_RISC_vs_CISC_Case_Study.pdf',
+    downloadFilename: 'Arun_Sharma_RISC_vs_CISC_Case_Study.pdf',
+  },
+];
+
